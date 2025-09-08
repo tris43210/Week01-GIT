@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-size: 100px;
+  text-align: center;
+}
+
+.style-div {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 25%;
+  height: 20%;
+  font-size: 3rem;
+  background-color: green;
+  border-radius: 200px;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
