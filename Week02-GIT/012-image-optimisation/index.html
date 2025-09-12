@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Src-set used to set all possible images to load based on their overall 'sizes' width in the browser I have a 2DPI display so this number has to be half -->
+
+    <img
+      src="https://picsum.photos/2000/1000"
+      width="500px"
+      height="250px"
+      sizes="220px"
+      srcset="
+        https://picsum.photos/500/250    500w,
+        https://picsum.photos/1000/500  1000w,
+        https://picsum.photos/2000/1000 2000w
+      "
+    />
+  </body>
+</html>
