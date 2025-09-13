@@ -76,12 +76,18 @@ const personalInfoArray = [
     {name:`Liz`, age: 400, height:`dwarf`},
 ]; 
 
-// item argument is the link between the object 
+// For each item in the array assign the item parameter to be the name, height and age and log each. 
 
-personalInfoArray.forEach(function(item) {
+// BY DEFAULT THE ARUGMENT FOR `forEach` are: 
+// 1st Arguemnt: The entire element
+// 2nd argument: The Index Nubmer
+// 3rd Argument: is the Array as a whole. 
+
+
+personalInfoArray.forEach(function(item, index, array) {
     console.log(item.name)
     console.log(item.height)
     console.log(item.age); 
+    console.log(`2nd parameter is the index number: ${index}`);
+    console.log(`3rd parameter is the entire array: ${array}`);  
 });
-
-
