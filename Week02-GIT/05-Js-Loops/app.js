@@ -68,3 +68,20 @@ myFavAnimals.forEach(function(animal, index) {
     console.log(`my fav animimal is a ${animal} its item number is ${index}`); 
 }); 
 
+// Example with an Objects stored within an Array:
+
+const personalInfoArray = [
+    {name: `Tristan`, age: 26, height: `5.11`},
+    {name:`lawrence`, age: 23, height:`shortman`},
+    {name:`Liz`, age: 400, height:`dwarf`},
+]; 
+
+// item argument is the link between the object 
+
+personalInfoArray.forEach(function(item) {
+    console.log(item.name)
+    console.log(item.height)
+    console.log(item.age); 
+});
+
+
